@@ -1,11 +1,948 @@
 {
   "users": [
     {
-      "github_login": "REPLACE_WITH_YOUR_GITHUB_USERNAME",
+      "faces_login": "manager",
+      "github_login": "",
       "active": false,
       "role": "admin",
-      "authorized_equipment": ["*"],
-      "authorized_projects": ["demo-project"]
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "1evertonmds13",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "abcsimas",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "adejanildoso",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "adrianaogomes",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ajcavele",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "alcides",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "alencariss",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "aloansilva.bio",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "amandapontesfarm",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "analuizasuhet",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "andrebrand1",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "aniziomudumane",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ariellybarreto",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "asfreitas",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "asymmetra_cont",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "atorres",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ayres.dias",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "bernadete",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "bmausse.gaza",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "brunomaiasantos",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "caperssonelli",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "carolinazamartin",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "caroline",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "catharinaeccard",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "cbomansur",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "celias",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "chaquip",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "claudiorobertobi",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "cmfraga",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "cristianesilva48",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "daienepaulaufrj",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "daiene_paula",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "danielardofarmac",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "danielsimas16",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "dornelas.gi",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "douglascazaroti",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "edylaice01",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "elucas",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "farmfcosta",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "felipedemidoff",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ferchagas",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "fergadini",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "fernanda.luz",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "fernando",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ferquimica",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "finelli",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "flaviacarmo",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "fncosta",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "fredylv",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "fs.thamirys",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "gabriel.2409fran",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "gabrielferreira2",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ggleitao",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "giulialencinatra",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "guilherme.caleff",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "hamerski",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "heber-victor",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "igoramos1996",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ivanafarma",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "jacquelis",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "jlo.domingos",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "juliagoudinhom",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "julianaperdiz",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "julianemartins66",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "kaioespindola",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "labccc",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "labcrom",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "labesp",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "labmas",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "lamar",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "lapemesp.ippn",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "leandrolara10",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "lfbmalta",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "lidialima",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "livia.casanova",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "liviarmenezes",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "luana__gs",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "lucasdsantosc",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "luzitinoco",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "marcelio",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "marcosdoliveira.",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "marquesilvio",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "marynasknupp",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "mfmuzitano",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "milato",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "mldias",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "mlet_barbosa",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "nathhan.barros",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "nayara.oliveira1",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "nigrofiamma",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "nivea",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "pamaral",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "pentaceno",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "periclesnunes",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "prrcosta2011",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "raphaelrapello",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "raquel.medeiros",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "raquel_demedeiro",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rcchiste",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rdsantonio.jorge",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ricardo_mborges",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "ricardo_mborges1",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "roberto",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rodolfosb",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rodrigoippn19",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "romulopereiraj",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rosangelamoreira",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rsangil",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rsmonteiro",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "rsneu15",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "thdelazare",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "thiagocahu",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "thiagotguimaraes",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "verapatrocinio",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "yasmiimsouza",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "yasmim.souza",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
+    },
+    {
+      "faces_login": "yasmimcmarcondes",
+      "github_login": "",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": []
     }
   ]
 }
