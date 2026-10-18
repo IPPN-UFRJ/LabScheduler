@@ -1,1 +1,948 @@
-{"users":[]}
+{
+  "users": [
+    {
+      "username": "manager",
+      "active": false,
+      "role": "admin",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "@Z#LZ9ExZFipB2dMKXff"
+    },
+    {
+      "username": "1evertonmds13",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "tQk9CX*U5Jwf_aM_oL5P"
+    },
+    {
+      "username": "abcsimas",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "hm%ib6Tr%HZxCyZnV2j_"
+    },
+    {
+      "username": "adejanildoso",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "yamD#HpzcVk4dg7gx@jB"
+    },
+    {
+      "username": "adrianaogomes",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "Wk7@id@Qzl%wO4-7mf5E"
+    },
+    {
+      "username": "ajcavele",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "5vhKxy7yCB@0*7sCCvGI"
+    },
+    {
+      "username": "alcides",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "v!XlXzg8g3!8xKfV@d@8"
+    },
+    {
+      "username": "alencariss",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "%sPcne0!wXiy6cgtLnhJ"
+    },
+    {
+      "username": "aloansilva.bio",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "Wkd!v4PjF3tpWEnaN4ZU"
+    },
+    {
+      "username": "amandapontesfarm",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "i4qQOV3uJGhCYMGEH%KJ"
+    },
+    {
+      "username": "analuizasuhet",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "suW5HAiNh*@JRAp3eqmi"
+    },
+    {
+      "username": "andrebrand1",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "SBpI2dt38#7!VknS**%*"
+    },
+    {
+      "username": "aniziomudumane",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "sQit_m0OfRQsZK1LEjX0"
+    },
+    {
+      "username": "ariellybarreto",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "mc5jY2y1IHh0E@UR8%Q%"
+    },
+    {
+      "username": "asfreitas",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "WGLfS#%CUZhIK@7c*f9p"
+    },
+    {
+      "username": "asymmetra_cont",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "9T!iGbVFKxhjQSECNIdS"
+    },
+    {
+      "username": "atorres",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "6gPAXbkbYWKbmKKdW%x0"
+    },
+    {
+      "username": "ayres.dias",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "6m8fPoIpu#CfNbLHVwT4"
+    },
+    {
+      "username": "bernadete",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "v7YR6@tJ8rYH7CEBQFnq"
+    },
+    {
+      "username": "bmausse.gaza",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "BvkiQo_AXz!u3HGErsrV"
+    },
+    {
+      "username": "brunomaiasantos",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "yYS4F_XHqK1r8NF#zXib"
+    },
+    {
+      "username": "caperssonelli",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "hfRBpp2LhjbZu1w%cmKZ"
+    },
+    {
+      "username": "carolinazamartin",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "a8FVsvJ#YelpD@w@iFjw"
+    },
+    {
+      "username": "caroline",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "pDL#CSXMFUIT9lqJfj3%"
+    },
+    {
+      "username": "catharinaeccard",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "_pWyy-d#ZzSg-Z_C41wd"
+    },
+    {
+      "username": "cbomansur",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "c@NJdF-kjIsg#-8ZJU8H"
+    },
+    {
+      "username": "celias",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "SI9t#a!Rvi*%FdFJGdzm"
+    },
+    {
+      "username": "chaquip",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "v!uBJwmLuB-zDw1atWhF"
+    },
+    {
+      "username": "claudiorobertobi",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "RHqJY8GTy7OF!l_iXCFX"
+    },
+    {
+      "username": "cmfraga",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "mVM@t75jLR*O-mDGfDIf"
+    },
+    {
+      "username": "cristianesilva48",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "qpSEEnvq-DFxjR_63LrM"
+    },
+    {
+      "username": "daienepaulaufrj",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "S2J!7vDQnAxp9WGNp1mu"
+    },
+    {
+      "username": "daiene_paula",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "i%pA%4N7cu@AHddKw9HI"
+    },
+    {
+      "username": "danielardofarmac",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "SNv5dsmt5WQjCPGXNR6#"
+    },
+    {
+      "username": "danielsimas16",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "hZZvxW%m#7rPZ9*JzK3O"
+    },
+    {
+      "username": "dornelas.gi",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "cj6dT09S6e_ZJ%QsjwqH"
+    },
+    {
+      "username": "douglascazaroti",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "HtLil#M9NV8bA36QvNSB"
+    },
+    {
+      "username": "edylaice01",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "Rl91uSY_%C8Wtqsnqqpx"
+    },
+    {
+      "username": "elucas",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "MTNKhOd5B*Amfj9nFuLI"
+    },
+    {
+      "username": "farmfcosta",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "UXS6V#rtVFtdgXEsPRyx"
+    },
+    {
+      "username": "felipedemidoff",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "P#4CVX6QJNKOEICR6g_Y"
+    },
+    {
+      "username": "ferchagas",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "eu9*QFSgAUmOp-ufy%yG"
+    },
+    {
+      "username": "fergadini",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "0L_NrzzNDGy4*v48fdf@"
+    },
+    {
+      "username": "fernanda.luz",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "!pU#G1sKQc-oqvPiT@dW"
+    },
+    {
+      "username": "fernando",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "Cc4n3qLgalD%-mk85Hmb"
+    },
+    {
+      "username": "ferquimica",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "wzDYi72QZpzg@-Ay-h_#"
+    },
+    {
+      "username": "finelli",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "42SiAeD_uwyt*i-3Yimv"
+    },
+    {
+      "username": "flaviacarmo",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "O4CIEP*uaO6G_ES_bx4j"
+    },
+    {
+      "username": "fncosta",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "OCTSNs2b7e_FrV%oftRJ"
+    },
+    {
+      "username": "fredylv",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "psvj8k0mVXr37rp#rFYB"
+    },
+    {
+      "username": "fs.thamirys",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "qvmotrR_GLK7g5ZvLc2X"
+    },
+    {
+      "username": "gabriel.2409fran",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "aV2*T3xnsPx98iRFTw5m"
+    },
+    {
+      "username": "gabrielferreira2",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "TxoRSEhDRNq9wrgc!7sh"
+    },
+    {
+      "username": "ggleitao",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "utHiN%-hSXN!#pc5VnKM"
+    },
+    {
+      "username": "giulialencinatra",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "FY-QDfkHn7M-Wa4Qih0j"
+    },
+    {
+      "username": "guilherme.caleff",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "6Mv4%lN_yxFI@Xp#@px2"
+    },
+    {
+      "username": "hamerski",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "_%_h2yJ4E#6DEIB5kGvX"
+    },
+    {
+      "username": "heber-victor",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "*wwdyA8f%S*P_qsrQpIa"
+    },
+    {
+      "username": "igoramos1996",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "1b2-rnNGLJ!92NHT!2Hz"
+    },
+    {
+      "username": "ivanafarma",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "JRPGk0ka3dqqvaNNe%n2"
+    },
+    {
+      "username": "jacquelis",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "YmdQFO8u7#mfOHUnY5yb"
+    },
+    {
+      "username": "jlo.domingos",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "z*v4JemnTT%#5t_1NFVA"
+    },
+    {
+      "username": "juliagoudinhom",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "HkoFHeZIi#CrjJ34XVbQ"
+    },
+    {
+      "username": "julianaperdiz",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "epRwNI8Su%wJoDMCM29c"
+    },
+    {
+      "username": "julianemartins66",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "dCphbO259O@XqZJPxXVv"
+    },
+    {
+      "username": "kaioespindola",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "feoyPczveqmgn9H@0fim"
+    },
+    {
+      "username": "labccc",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "-pNYxVN#@KZmn6mg!B6B"
+    },
+    {
+      "username": "labcrom",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "NNF_giBGXcmQ#0s6ea%%"
+    },
+    {
+      "username": "labesp",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "tZPsXm-fA49mg3kEgUrN"
+    },
+    {
+      "username": "labmas",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "JDNSNG@nnrxB!WAFVC45"
+    },
+    {
+      "username": "lamar",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "l3!GbJ6ueX-2NbX9QrP4"
+    },
+    {
+      "username": "lapemesp.ippn",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "zjitrG9Ln1q!Cu*FbzOj"
+    },
+    {
+      "username": "leandrolara10",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "#-%pYigaPVX_9Fmlu8fV"
+    },
+    {
+      "username": "lfbmalta",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "lDqnIZo-l0Nq-azXAMG-"
+    },
+    {
+      "username": "lidialima",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "bGWz%N0XbO2RE95f6evZ"
+    },
+    {
+      "username": "livia.casanova",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "f*SNOAJGbeR2mnWb_YRC"
+    },
+    {
+      "username": "liviarmenezes",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "q!yg_74UD%up@xqXI02a"
+    },
+    {
+      "username": "luana__gs",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "x#-vxHg8L9fo_P6MzR8j"
+    },
+    {
+      "username": "lucasdsantosc",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "0a6L4Gx3qoIwBQ-#w-di"
+    },
+    {
+      "username": "luzitinoco",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "teGCYtK37OAqv9VAPP*P"
+    },
+    {
+      "username": "marcelio",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "c-uq0O!#PNepuF_6shyw"
+    },
+    {
+      "username": "marcosdoliveira.",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "V4speYRpbm*yom-zntdl"
+    },
+    {
+      "username": "marquesilvio",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "WI*6HBWtXAyqAOagsHQ5"
+    },
+    {
+      "username": "marynasknupp",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "AR3%wYPUrz_ItmmYjsF1"
+    },
+    {
+      "username": "mfmuzitano",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "B9_aeNsYl9hxPpy-6HS@"
+    },
+    {
+      "username": "milato",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "qEj@TPoalGVyeuU2C@nr"
+    },
+    {
+      "username": "mldias",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "A!Tv#BvuXUAoXAly1y*J"
+    },
+    {
+      "username": "mlet_barbosa",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "L_%jp6z#-HAXZ#_-1xmd"
+    },
+    {
+      "username": "nathhan.barros",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "m*izFGnTot9KdW-iJ5qc"
+    },
+    {
+      "username": "nayara.oliveira1",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "b8wI1-7JATluc1NUFRNV"
+    },
+    {
+      "username": "nigrofiamma",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "*9ND9x8R%2ma_r1s7Yl%"
+    },
+    {
+      "username": "nivea",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "iBJq8diLnPOq!gCPA12a"
+    },
+    {
+      "username": "pamaral",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "q0tGK7R99B!H0Y8T@-LJ"
+    },
+    {
+      "username": "pentaceno",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "cZnTk-iQxG1oMOpKyWn_"
+    },
+    {
+      "username": "periclesnunes",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "D#hzT2lYIFC@GsbG2oNB"
+    },
+    {
+      "username": "prrcosta2011",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "4TH3x1KxsPZL18Wh8qT#"
+    },
+    {
+      "username": "raphaelrapello",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "JA-5A1Sxo%FYmXCBZVzv"
+    },
+    {
+      "username": "raquel.medeiros",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "o4YcZsTk-STb632-4m81"
+    },
+    {
+      "username": "raquel_demedeiro",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "qsz6R#YMfXvf8!p1hvfL"
+    },
+    {
+      "username": "rcchiste",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "v4N6TreV0fs!i*4i@w_9"
+    },
+    {
+      "username": "rdsantonio.jorge",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "m#3Jym4tn!guG-JQCBSi"
+    },
+    {
+      "username": "ricardo_mborges",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "*zU3HO!n34TVP%GScrya"
+    },
+    {
+      "username": "ricardo_mborges1",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "j9@F2ZPX2J7WIbM6NEU4"
+    },
+    {
+      "username": "roberto",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "VfYpow7gDF_Xp6YBIdhG"
+    },
+    {
+      "username": "rodolfosb",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "m_2EiDO0ho-FBhmcH%dJ"
+    },
+    {
+      "username": "rodrigoippn19",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "ZPR9WG1t*i7C2LwwuPrf"
+    },
+    {
+      "username": "romulopereiraj",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "lY6LeIlsE@O1D9mwjG9!"
+    },
+    {
+      "username": "rosangelamoreira",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "ESW1s6Ce*4HN5X7PW2fp"
+    },
+    {
+      "username": "rsangil",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "L8U0BWhx2rh0VmAOuu-f"
+    },
+    {
+      "username": "rsmonteiro",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "ZNY@a9dyK-dh#Gfp42@X"
+    },
+    {
+      "username": "rsneu15",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "ZiaMS4esn@MGyg!XvvsJ"
+    },
+    {
+      "username": "thdelazare",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "3qmF54Pik4%bGJnDRSoJ"
+    },
+    {
+      "username": "thiagocahu",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "C-aUgVL!P3lM9fnuLtUP"
+    },
+    {
+      "username": "thiagotguimaraes",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "hcMSMUspC-9xLy!oVWrP"
+    },
+    {
+      "username": "verapatrocinio",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "%9satvmu@HmpxMxspKRG"
+    },
+    {
+      "username": "yasmiimsouza",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "t9#T@Psp8ot-ffzWZneH"
+    },
+    {
+      "username": "yasmim.souza",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "J9Hd#OosO8A%3sRN9mPp"
+    },
+    {
+      "username": "yasmimcmarcondes",
+      "active": false,
+      "role": "user",
+      "authorized_equipment": [],
+      "authorized_projects": [],
+      "password": "Er#6cdcOla@XY-9WUW#Q"
+    }
+  ]
+}
