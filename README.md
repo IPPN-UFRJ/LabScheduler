@@ -58,3 +58,13 @@ npm run build
 - `.github/workflows/deploy.yml` publicação.
 - `.github/workflows/process-bookings.yml` validação e registro.
 - `scripts/process_booking.py` verificador de autorização/conflitos.
+
+
+## v0.5.1 — botão Entrar
+
+O botão **Entrar** no cabeçalho abre uma janela com **Entrar com GitHub**. O botão direciona para o login oficial do GitHub, em outra aba. **Não é OAuth integrado**: GitHub Pages não pode obter ou verificar a sessão do GitHub de forma segura sem backend. O usuário retorna ao LabScheduler e solicita a reserva; a Issue é atribuída pelo GitHub à conta autenticada, e `process_booking.py` valida o autor contra `config/users.json`. Não existe login com senha local nem estado de sessão autenticada no site.
+
+
+## v0.5.2 — seleção de horários consecutivos
+
+Na página Nova reserva, selecione um equipamento e clique no primeiro bloco horário. Clique no último bloco do mesmo dia para selecionar todos os blocos consecutivos entre ambos. Um novo clique inicia outra seleção. Horários ocupados e passados não podem integrar o intervalo. A Issue contém um único início e término ISO 8601. O GitHub Actions faz a validação final de conflito.
