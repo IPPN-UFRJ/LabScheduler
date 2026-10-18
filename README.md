@@ -96,3 +96,23 @@ Sem Supabase, o site apresenta o catálogo e os informes no modo demonstração,
 O workflow desta versão remove a opção de cache do npm, que exige um `package-lock.json` inexistente no pacote anterior. A entrada do Vite também foi ajustada para caminho relativo.
 
 **Nota:** o Supabase não é necessário para visualizar a interface demonstrativa. Sem as variáveis de ambiente, reservas não são persistidas.
+
+## v0.4 — Login por senha, administrador e calendário
+
+1. Execute as migrações `001_init.sql`, `002_equipment_catalog.sql` e `003_access_control.sql` **na ordem**, usando apenas as ainda não aplicadas. Não reaplique `001_init.sql` se o banco já está em uso.
+2. Em Supabase → Authentication → Providers → Email, mantenha login por e-mail/senha habilitado e **desabilite novas inscrições públicas (Allow new users to sign up)**. Administradores criarão contas pelo painel.
+3. Crie **a primeira conta de administrador** manualmente no Supabase Dashboard → Authentication → Users → Add user (senha forte). Crie uma instituição e associe a conta como `admin` em `public.memberships` usando SQL Editor, substituindo os valores abaixo. Não insira senhas no SQL nem no GitHub.
+
+```sql
+insert into public.institutions(name) values ('IPPN / UFRJ') returning id;
+-- Depois, com o UUID da instituição acima e o UUID do usuário em Authentication → Users:
+insert into public.memberships(institution_id,user_id,role)
+values ('UUID_DA_INSTITUICAO','UUID_DO_USUARIO_ADMIN','admin');
+```
+
+4. Faça deploy da Edge Function `manage-users` via Supabase CLI: `supabase functions deploy manage-users`. A função precisa das variáveis de ambiente internas `SUPABASE_URL`, `SUPABASE_ANON_KEY` e `SUPABASE_SERVICE_ROLE_KEY`, disponíveis no ambiente Supabase. **Nunca** adicione `SUPABASE_SERVICE_ROLE_KEY` ao GitHub Pages ou a qualquer variável `VITE_*`.
+5. Configure `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` em GitHub → Settings → Secrets and variables → Actions → Variables e execute novamente o workflow.
+6. Cadastre equipamentos/projetos no banco e vincule pesquisadores aos projetos em `project_members`. A autorização por instrumento é gerenciada pelo administrador na página **Usuários**. Apenas a primeira autorização pode ser escolhida ao criar a conta; outras podem ser adicionadas depois.
+7. No calendário semanal da Nova reserva, intervalos ocupados são consultados pela RPC `equipment_busy_intervals`, que retorna apenas horários. A constraint de exclusão no PostgreSQL continua sendo a proteção final contra sobreposição.
+
+**Limites desta versão:** a lista de usuários usa chamadas administrativas individuais e deve ser paginada para instituições maiores; o administrador pode conceder autorizações, mas a revogação individual ainda requer SQL; o calendário mostra reservas confirmadas e não inclui bloqueios de manutenção programada; cada clique seleciona uma hora, ajustável no formulário. As contas não são criadas quando o Supabase está desconfigurado. Não publique o sistema como produção antes de validar RLS, recuperação de senha, configuração de e-mail e backups.
