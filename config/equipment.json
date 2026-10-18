@@ -1,0 +1,465 @@
+{
+  "version": 1,
+  "institution": "IPPN / UFRJ",
+  "equipment": [
+    {
+      "code": "Cod72V7YF/25",
+      "name": "Extrator com micro-ondas",
+      "manufacturer": "Milestone",
+      "model": "Ethos X — Advanced Microwave Extraction System",
+      "lab": "LPES",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/36089",
+      "depends_on": null
+    },
+    {
+      "code": "Cod09EGX9/25",
+      "name": "Extrator com fluidos supercríticos (CO₂)",
+      "manufacturer": "TOP Industrie",
+      "model": "2017",
+      "lab": "LPES",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/36089",
+      "depends_on": null
+    },
+    {
+      "code": "Cod8A6KI4/24",
+      "name": "Cromatógrafo de fase líquida com espectrômetro de massas",
+      "manufacturer": "Sciex",
+      "model": "API 2000",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "Cod0F70KR/24",
+      "name": "Cromatógrafo de fase líquida com espectrômetro de massas",
+      "manufacturer": "Agilent",
+      "model": "1260",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "CodV554BM/21",
+      "name": "Cromatógrafo de fase líquida com espectrômetro de massas MicrOTOF",
+      "manufacturer": "Bruker Daltonics",
+      "model": "MicrOTOF Focus",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "Cod8W2RY8/21",
+      "name": "Cromatógrafo de fase líquida Waters Alliance",
+      "manufacturer": "Waters",
+      "model": "Alliance 2695E — A09SM4214A",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "Cod9S6XU7/24",
+      "name": "Cromatógrafo de fase gasosa com espectrômetro de massas",
+      "manufacturer": "Shimadzu",
+      "model": "QP2010",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "CodV77KB1/24",
+      "name": "Cromatógrafo de fase gasosa com espectrômetro de massas",
+      "manufacturer": "Shimadzu",
+      "model": "QP2020",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "CodWR481V/24",
+      "name": "Gerador de nitrogênio",
+      "manufacturer": "Peak",
+      "model": "Genius NM32LA",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": false,
+      "kind": "accessory",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "Cod5K44WM/24",
+      "name": "Gerador de nitrogênio",
+      "manufacturer": "Peak",
+      "model": "Genius NM32LA",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": false,
+      "kind": "accessory",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "CodX7U88F/24",
+      "name": "Cromatógrafo de fase líquida com detector de arranjo de diodos",
+      "manufacturer": "Agilent",
+      "model": "1260 Infinity",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1103",
+      "depends_on": null
+    },
+    {
+      "code": "Cod4QYK28/24",
+      "name": "Cromatógrafo de fase líquida com detector por arranjo de diodos",
+      "manufacturer": "Agilent",
+      "model": "1260",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "Cod2B2M1G/24",
+      "name": "Espectrômetro de massas",
+      "manufacturer": "Sciex",
+      "model": "API 2000",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "CodGX4T05/24",
+      "name": "Cromatógrafo de fase gasosa com detector fotométrico de chama",
+      "manufacturer": "Agilent",
+      "model": "7890A",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "CodS5C1N5/24",
+      "name": "Reator de micro-ondas para síntese",
+      "manufacturer": "Biotage",
+      "model": "Initiator+",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "CodNS378F/24",
+      "name": "Cromatógrafo preparativo Flash",
+      "manufacturer": "Biotage",
+      "model": "Isolera Spektra One",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "CodD10BK0/24",
+      "name": "Cromatógrafo de fase gasosa com detector fotométrico de chama",
+      "manufacturer": "Shimadzu",
+      "model": "GC-2010",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "Cod7Q55EW/24",
+      "name": "Cromatógrafo de fase gasosa com detector fotométrico de chama",
+      "manufacturer": "Shimadzu",
+      "model": "GC-2010 Plus",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "CodQO462S/24",
+      "name": "Cromatógrafo de fase líquida DAD em escala preparativa",
+      "manufacturer": "Shimadzu",
+      "model": "LC-20A Prominence",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "Cod8T01HS/24",
+      "name": "Cromatógrafo de fase líquida com detector por arranjo de diodos",
+      "manufacturer": "Shimadzu",
+      "model": "LC-20A Prominence",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "Cod2OSL28/24",
+      "name": "Concentrador centrífugo SpeedVac",
+      "manufacturer": "Eppendorf",
+      "model": "Vacufuge",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "Cod6Q4GM3/24",
+      "name": "Cromatógrafo de fase líquida com detector por arranjo de diodos e amostrador automático",
+      "manufacturer": "Shimadzu",
+      "model": "20A",
+      "lab": "LABCROM",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/21460",
+      "depends_on": null
+    },
+    {
+      "code": "CodS452EN/24",
+      "name": "Espectrofotômetro UV-Vis",
+      "manufacturer": "Shimadzu",
+      "model": "UV-1800",
+      "lab": "LABESP",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "",
+      "depends_on": null
+    },
+    {
+      "code": "CodH12K7M/24",
+      "name": "Espectrofotômetro UV-Vis",
+      "manufacturer": "Shimadzu",
+      "model": "UV-1800",
+      "lab": "LABESP",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "",
+      "depends_on": null
+    },
+    {
+      "code": "CodV88GC5/24",
+      "name": "Espectrômetro de infravermelho",
+      "manufacturer": "Shimadzu",
+      "model": "IRPrestige-21",
+      "lab": "LABESP",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "",
+      "depends_on": null
+    },
+    {
+      "code": "Cod7SY03G/24",
+      "name": "Polarímetro",
+      "manufacturer": "JASCO",
+      "model": "P-2000",
+      "lab": "LABESP",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "",
+        "en": "",
+        "es": ""
+      },
+      "pnipe_url": "",
+      "depends_on": null
+    },
+    {
+      "code": "LOCAL-N2-CONCENTRATOR",
+      "name": "Concentrador de amostras por fluxo de N₂",
+      "manufacturer": "Não informado",
+      "model": "Não informado",
+      "lab": "LABMAS",
+      "operational_status": "operational",
+      "bookable": true,
+      "kind": "instrument",
+      "notice": {
+        "pt": "Verifique a disponibilidade do gerador de nitrogênio associado antes de utilizar.",
+        "en": "Check the associated nitrogen generator before use.",
+        "es": "Compruebe el generador de nitrógeno asociado antes de utilizarlo."
+      },
+      "pnipe_url": "",
+      "depends_on": "CodWR481V/24"
+    }
+  ]
+}
