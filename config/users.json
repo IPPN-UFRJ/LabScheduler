@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "github_login": "REPLACE_WITH_YOUR_GITHUB_USERNAME",
+      "active": false,
+      "role": "admin",
+      "authorized_equipment": ["*"],
+      "authorized_projects": ["demo-project"]
+    }
+  ]
+}

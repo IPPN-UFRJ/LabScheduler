@@ -1,118 +1,60 @@
-# LabScheduler — versão inicial independente (v0.1)
+# LabScheduler v0.5 — GitHub-only
 
-Aplicação React/TypeScript para agendamento científico, com hospedagem do frontend em GitHub Pages e backend Supabase/PostgreSQL. **Não depende do Lovable.**
+Site: https://ippn-ufrj.github.io/LabScheduler/
 
-## Estado real desta entrega
+## O que funciona
 
-**Implementado:** interface responsiva; autenticação passwordless por e-mail; leitura de equipamentos/projetos autorizados; criação de reserva; bloqueio de conflitos concorrentes por restrição PostgreSQL; check-in/check-out/cancelamento via RPC; solicitação e aprovação de mudança de fonte de custeio com proibição de autoaprovação; histórico de decisões; exportação CSV e impressão em PDF pelo navegador; workflow de deploy GitHub Pages; RLS de acesso inicial.
+- GitHub Pages para site React/Vite, PT/EN/ES, 27 equipamentos, avisos por equipamento e calendário semanal.
+- Ocupação pública lida de `data/reservations.json`.
+- Solicitação de reserva abre uma **GitHub Issue** preenchida. O solicitante **precisa ter uma conta GitHub** e autenticar-se no GitHub.
+- GitHub Actions valida a identidade real do autor da Issue, autorização em `config/users.json`, projeto ativo e autorizado, equipamento agendável, datas e conflito de horários; então grava reserva pública sanitizada e comenta o resultado.
+- Nenhuma senha, token ou credencial administrativa é enviada ao navegador.
 
-**Não implementado nesta versão:** calendário visual completo, recorrência, QR code, Google OAuth, treinamento de operador, notificações, criação administrativa de instituições/equipamentos/projetos pela UI, cadastro de clientes, orçamento PDF, ordens de serviço, FUJB, notas fiscais, conciliação financeira, relatórios XLSX completos, backup automatizado e testes automatizados. A tela de orçamentos indica explicitamente a indisponibilidade. Não usar em produção sem auditoria de segurança, testes de concorrência e revisão das políticas institucionais.
+## Limitações IMPORTANTES
 
-## Publicar no GitHub Pages
+- **Não há formulário de login com senha própria.** O login é o do GitHub. Não é possível implementar login próprio seguro exclusivamente com GitHub Pages + JSON público.
+- **GitHub Issues do repositório público são públicas.** NÃO registre amostras, finalidade científica, informações pessoais, financeiras ou dados sensíveis nas solicitações. O formulário transmite somente código do equipamento, código de projeto e intervalo.
+- O `users.json` público contém **apenas identificadores GitHub e permissões**; nunca e-mails privados, senhas ou hashes.
+- Reservas são **assíncronas** e dependem da execução do Actions. O calendário pode demorar alguns minutos a atualizar. Não existe confirmação imediata.
+- Esta versão **não implementa** check-in/check-out autenticados, faturamento, aprovações financeiras, relatórios com dados privados, cancelamento pelo usuário, manutenção transacional sofisticada ou login por senha independente.
+- A simultaneidade é serializada pelo grupo `booking-state` no GitHub Actions; falhas temporárias no `git push` ainda podem exigir intervenção administrativa. A atualização do calendário depende do deploy.
+- Um administrador do repositório com permissão de escrita pode alterar os JSON. Não conceda escrita a pesquisadores sem necessidade.
 
-1. Crie repositório GitHub, por exemplo `LabScheduler`.
-2. Extraia o ZIP e envie **o conteúdo da pasta `LabScheduler` para a raiz do repositório** (o `package.json` deve ficar na raiz).
-3. Crie um projeto Supabase (plano gratuito, sujeito a limites).
-4. No SQL Editor do Supabase, execute `supabase/migrations/001_init.sql`.
-5. Em GitHub → Settings → Secrets and variables → Actions → **Variables**, configure `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` (a chave pública/publishable, nunca service_role).
-6. No Supabase → Authentication → URL Configuration, cadastre `https://SEU_USUARIO.github.io/LabScheduler/` como Redirect URL e, se apropriado, Site URL. Se o nome do repositório for diferente, use esse nome no caminho.
-7. No GitHub → Settings → Pages, escolha **GitHub Actions** como Source. Faça push para `main` e acompanhe a Action de deploy.
-8. O site abrirá em `https://SEU_USUARIO.github.io/LabScheduler/`.
+## Instalação
 
-## Desenvolvimento local
+1. Copie **todo o conteúdo deste pacote** para a raiz do repositório `IPPN-UFRJ/LabScheduler`, substituindo a versão antiga. A pasta `.github` deve ser incluída.
+2. GitHub → Settings → Pages → Source: **GitHub Actions**.
+3. GitHub → Settings → General → Features: habilite **Issues**.
+4. GitHub → Settings → Actions → General → Workflow permissions: selecione **Read and write permissions** (necessário para `process-bookings.yml` gravar `data/reservations.json` e comentar Issues). Se não for possível, revise permissões da organização.
+5. Edite `config/users.json`: substitua `REPLACE_WITH_YOUR_GITHUB_USERNAME` pelo seu nome de usuário GitHub, altere `active` para `true`. Adicione usuários com identificador GitHub e autorizações explícitas por instrumento e projeto.
+6. Edite `config/projects.json`: cadastre projetos com `id` estável e `active:true`; autorize seus IDs em `users.json`.
+7. Configure equipamentos e avisos em `config/equipment.json` (`bookable`, `operational_status`, `notice.pt/en/es`). Geradores de nitrogênio são acessórios não agendáveis.
+8. Faça commit. O workflow `Deploy LabScheduler` publica o site. O workflow `Process booking requests` processa Issues.
+9. Faça um teste com sua conta GitHub autorizada: selecione equipamento, projeto e horário, clique em **Solicitar reserva via GitHub**; confira a Issue e o resultado do workflow. Uma reserva aceita aparece em `data/reservations.json`.
+
+## Segurança e privacidade
+
+- GitHub Pages não é um backend autenticado. **Nunca coloque senhas, hashes, tokens de acesso, service role keys ou dados confidenciais em `config/` ou `data/`.**
+- A verificação de autorização ocorre no Actions, usando o login fornecido pela API do GitHub para a Issue, nunca uma identidade declarada no navegador.
+- A disponibilidade pública contém apenas ID da reserva, equipamento, intervalo e status.
+- Se o repositório tiver regras de proteção de branch, o `github-actions[bot]` poderá não conseguir fazer push. Configure a política institucional adequadamente, sem desabilitar proteções indiscriminadamente.
+- Não execute código fornecido no corpo de Issues. O processador usa somente JSON e valida os campos.
+
+## Desenvolvimento
 
 ```bash
 npm install
-cp .env.example .env
-# preencha VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY
-# para desenvolvimento local, defina VITE_BASE_PATH=/
 npm run dev
 npm run build
 ```
 
-Sem variáveis Supabase, a interface abre em **DEMO** com instrumentos e projetos fictícios. Nesse modo não salva reservas e não finge persistência.
+## Estrutura
 
-## Inicialização administrativa
-
-O primeiro administrador precisa ser cadastrado **manualmente** por um operador confiável no SQL Editor, após autenticar uma vez para criar seu `auth.users.id`:
-
-```sql
--- Substitua por dados reais; execute no SQL Editor como administrador do banco.
-insert into public.institutions(name) values ('IPPN / UFRJ') returning id;
-insert into public.memberships(institution_id,user_id,role)
-values ('UUID_DA_INSTITUICAO','UUID_DO_USUARIO','admin');
-insert into public.equipment(institution_id,name,lab,active)
-values ('UUID_DA_INSTITUICAO','LC–HRMS/MS','LabCROM',true);
-insert into public.projects(institution_id,name,scientific_lead,financial_lead,funding_source)
-values ('UUID_DA_INSTITUICAO','Projeto inicial','Nome do coordenador','Nome do responsável financeiro','Fonte inicial') returning id;
-insert into public.project_members(project_id,user_id)
-values ('UUID_DO_PROJETO','UUID_DO_USUARIO');
-```
-
-## Observações de segurança
-
-- RLS e funções PostgreSQL fazem a verificação de autorização no servidor.
-- Reservas de uma mesma instituição são visíveis a membros dessa instituição. Revise visibilidade e LGPD antes de incluir informações sensíveis em `purpose`.
-- O administrador da base precisa administrar vínculos e permissões até que seja implementada a interface administrativa.
-- O schema inicial exige revisão de segurança antes de uso real; funções SECURITY DEFINER merecem auditoria.
-- Não há emissão fiscal nem armazenamento de XML/PDF nesta versão.
-- GitHub Pages hospeda apenas a interface; a persistência depende do Supabase.
-
-## Idiomas / Languages / Idiomas
-
-A interface suporta **Português (PT-BR)**, **English (EN)** e **Español (ES)**, com seletor `PT | EN | ES` no cabeçalho e na tela de login. A preferência é salva no `localStorage` do navegador e, na primeira visita, o idioma é inferido da configuração do navegador (outros idiomas usam português). Datas seguem a localidade selecionada. Dados fornecidos pelos usuários, como nomes de projetos e observações, **não são traduzidos automaticamente**.
-
-The UI supports Portuguese, English and Spanish. Language selection persists locally. User-entered data is not automatically translated.
-
-
-## v0.3 — Catálogo administrado pelo GitHub
-
-O arquivo **`config/equipment.json`** contém 27 itens: 25 agendáveis (24 instrumentos originais + 1 concentrador de N₂) e 2 geradores Peak NM32LA acessórios. O concentrador está associado provisoriamente ao gerador `CodWR481V/24`; confirme fisicamente qual gerador o atende antes de uso real. Fabricante e modelo do concentrador estão como não informados.
-
-### Ativar/desativar e publicar informes
-
-1. No GitHub, abra `config/equipment.json` e clique em **Edit** (ícone lápis).
-2. Localize o equipamento por `code` (código PNIPE ou `LOCAL-N2-CONCENTRATOR`).
-3. Altere `"bookable": true` para `false` para impedir **novas** reservas, ou vice-versa. Altere `"operational_status"` para `"maintenance"` para indicar manutenção. Acessórios permanecem `bookable:false`.
-4. Preencha `notice.pt`, `notice.en` e `notice.es` para avisos exibidos na ficha e na reserva; texto vazio remove o aviso.
-5. Faça **Commit changes** em `main`. O GitHub Actions publica a interface. Com o workflow de sincronização configurado, também atualiza o banco Supabase.
-
-**Para controle efetivo de reservas no servidor**, execute `supabase/migrations/002_equipment_catalog.sql` no SQL Editor e configure os três GitHub **Actions Secrets**: `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` e `LABSCHEDULER_INSTITUTION_ID` (UUID da instituição cadastrada). A chave `service_role` deve existir **somente em Secrets**, jamais em arquivos, variáveis `VITE_` ou no frontend. A sincronização não funciona sem estes Secrets. O workflow `Sync equipment catalog to Supabase` usa a chave privilegiada exclusivamente durante o GitHub Actions; proteja a branch `main` com revisão obrigatória e restrinja acesso ao repositório.
-
-O `code` é usado como chave estável; a sincronização faz upsert e **não apaga** instrumentos nem reservas antigas. Desativar um equipamento bloqueia novas reservas; reservas existentes permanecem no histórico e exigem gestão/cancelamento manual. A indisponibilidade do gerador associado bloqueia novas reservas do concentrador quando o catálogo estiver sincronizado.
-
-Sem Supabase, o site apresenta o catálogo e os informes no modo demonstração, mas não salva reservas. Se o banco já contém instrumentos antigos sem `code`, estes não são automaticamente vinculados ao catálogo e devem ser reconciliados pelo administrador antes da operação.
-
-
-## Tela branca no GitHub Pages — correção v0.3.1
-
-1. Envie **o conteúdo da pasta `LabScheduler/`**, não a pasta como subdiretório, para a raiz do repositório.
-2. Em **Settings → Pages → Build and deployment → Source**, escolha **GitHub Actions** (não `Deploy from a branch`).
-3. Confirme que o arquivo `.github/workflows/deploy.yml` foi enviado (incluindo a pasta oculta `.github`).
-4. Na aba **Actions**, execute `Deploy GitHub Pages` usando `Run workflow` e aguarde o status verde.
-5. Abra a URL exibida no job `deploy`. O endereço de projeto é `https://USUARIO.github.io/NOME-DO-REPOSITORIO/`.
-6. Se continuar em branco, abra F12 → Console e copie o erro. Erros 404 em `/assets/...` indicam base path ou publicação incorreta.
-
-O workflow desta versão remove a opção de cache do npm, que exige um `package-lock.json` inexistente no pacote anterior. A entrada do Vite também foi ajustada para caminho relativo.
-
-**Nota:** o Supabase não é necessário para visualizar a interface demonstrativa. Sem as variáveis de ambiente, reservas não são persistidas.
-
-## v0.4 — Login por senha, administrador e calendário
-
-1. Execute as migrações `001_init.sql`, `002_equipment_catalog.sql` e `003_access_control.sql` **na ordem**, usando apenas as ainda não aplicadas. Não reaplique `001_init.sql` se o banco já está em uso.
-2. Em Supabase → Authentication → Providers → Email, mantenha login por e-mail/senha habilitado e **desabilite novas inscrições públicas (Allow new users to sign up)**. Administradores criarão contas pelo painel.
-3. Crie **a primeira conta de administrador** manualmente no Supabase Dashboard → Authentication → Users → Add user (senha forte). Crie uma instituição e associe a conta como `admin` em `public.memberships` usando SQL Editor, substituindo os valores abaixo. Não insira senhas no SQL nem no GitHub.
-
-```sql
-insert into public.institutions(name) values ('IPPN / UFRJ') returning id;
--- Depois, com o UUID da instituição acima e o UUID do usuário em Authentication → Users:
-insert into public.memberships(institution_id,user_id,role)
-values ('UUID_DA_INSTITUICAO','UUID_DO_USUARIO_ADMIN','admin');
-```
-
-4. Faça deploy da Edge Function `manage-users` via Supabase CLI: `supabase functions deploy manage-users`. A função precisa das variáveis de ambiente internas `SUPABASE_URL`, `SUPABASE_ANON_KEY` e `SUPABASE_SERVICE_ROLE_KEY`, disponíveis no ambiente Supabase. **Nunca** adicione `SUPABASE_SERVICE_ROLE_KEY` ao GitHub Pages ou a qualquer variável `VITE_*`.
-5. Configure `VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY` em GitHub → Settings → Secrets and variables → Actions → Variables e execute novamente o workflow.
-6. Cadastre equipamentos/projetos no banco e vincule pesquisadores aos projetos em `project_members`. A autorização por instrumento é gerenciada pelo administrador na página **Usuários**. Apenas a primeira autorização pode ser escolhida ao criar a conta; outras podem ser adicionadas depois.
-7. No calendário semanal da Nova reserva, intervalos ocupados são consultados pela RPC `equipment_busy_intervals`, que retorna apenas horários. A constraint de exclusão no PostgreSQL continua sendo a proteção final contra sobreposição.
-
-**Limites desta versão:** a lista de usuários usa chamadas administrativas individuais e deve ser paginada para instituições maiores; o administrador pode conceder autorizações, mas a revogação individual ainda requer SQL; o calendário mostra reservas confirmadas e não inclui bloqueios de manutenção programada; cada clique seleciona uma hora, ajustável no formulário. As contas não são criadas quando o Supabase está desconfigurado. Não publique o sistema como produção antes de validar RLS, recuperação de senha, configuração de e-mail e backups.
+- `src/` interface React.
+- `config/equipment.json` instrumentos e avisos.
+- `config/users.json` contas GitHub autorizadas (sem senhas).
+- `config/projects.json` projetos elegíveis.
+- `data/reservations.json` disponibilidade pública.
+- `.github/workflows/deploy.yml` publicação.
+- `.github/workflows/process-bookings.yml` validação e registro.
+- `scripts/process_booking.py` verificador de autorização/conflitos.
